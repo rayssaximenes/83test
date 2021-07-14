@@ -26,7 +26,7 @@ class KeyBoardAndMouseInput {
 
         WebElement password = driver.findElement(By.name("Password"));
         password.click();
-        password.sendKeys("raiisinha");
+        password.sendKeys("12345678");
 
         WebElement button = driver.findElement (By.xpath("//button[@type='submit']"));
         button.click();
